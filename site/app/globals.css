@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: #0d0c0a;
+  color: #f3eee4;
+}
+
+::selection {
+  background: #a98a54;
+  color: #0d0c0a;
+}
+
+/* Visible keyboard focus, in the brand's own language rather than a
+   generic blue ring */
+:focus-visible {
+  outline: 1.5px solid #c7ad7c;
+  outline-offset: 3px;
+}
