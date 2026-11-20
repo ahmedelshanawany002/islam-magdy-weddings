@@ -5,7 +5,7 @@
 
 export const packageImages = [
   {
-    src: "/packages/package-1.jpg",
+    src: "/packages/Page 1.PNG",
     alt: "Islam Magdi Wedding Packages — Mini Wedding, Mini Wedding Promo, Half Day pricing",
     width: 854,
     height: 1280,
